@@ -1,0 +1,32 @@
+@page
+@model self_promo_dawson.Pages.Admin.Responsibilities.DetailsModel
+using self_promo_dawson.Data;
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Responsibility</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Responsibility.Value)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Responsibility.Value)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Responsibility.Experience)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Responsibility.Experience.Company)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Responsibility?.ResponsibilityId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

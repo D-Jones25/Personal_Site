@@ -1,0 +1,172 @@
+/* COLOR SCHEME: Sandy Stone Beach */
+header {
+color: #002F2F;
+background-image: url("../images/download.png");
+background-position: right;
+background-repeat: no-repeat;
+background-color: #A7A37E;
+border-radius: 10px 10px 0 0;
+}
+.non-mobile { 
+  float: right;
+  display: inline;
+}
+
+.mobile {
+  display: none;
+}
+h1 {
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 42pt;
+  line-height: 36pt;
+  font-weight: lighter;
+}
+h2 {
+  margin: 0;
+  padding: 0px 10px 5px;
+  font-size: 18pt;
+  line-height: 22pt;
+  font-weight: lighter;
+  font-style: italic;
+}
+h3 { 
+  font-size: 24pt;
+  font-weight:lighter; 
+  margin: 0
+}
+.experience {
+  border-left: 10px solid #002F2F;
+  border-right: 1px dashed #002F2F;
+  border-top: 1px dashed #002F2F;
+  border-bottom: 1px dashed #002F2F;
+  margin: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  overflow: auto;
+}
+.school img {
+  float: left;
+}
+.school {
+  border-left: 10px solid #002F2F;
+  border-right: 1px dashed #002F2F;
+  border-top: 1px dashed #002F2F;
+  border-bottom: 1px dashed #002F2F;
+  margin: 20px;
+  padding: 5px 10px;
+  overflow: auto;
+}
+.details {
+  float: right;
+  padding: 5px 10px;
+}
+.school img {
+  float: left;
+}
+.school h3 {
+  margin: 0 0 0 120px;
+}
+.school h4 {
+  font-size: 14pt;
+  font-weight: lighter;
+  margin: 0 0 0 120px;
+}
+.school ul {
+  margin: 0 0 0 120px;
+}
+.experience h4 {
+  font-size: 18pt;
+  font-weight: lighter;
+  margin: 0;
+}
+.experience .title {
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.experience .dates{
+  font-style: italic;
+  font-weight: bold;
+  float: right;
+}
+.experience .dates .description{
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: bold;
+  float: right;
+}
+.experience .description {
+  font-size: 11pt;
+}
+.experience ul {
+  margin: 0;
+}
+.experience .responsibilities {
+  font-size: 10pt;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  -ms-column-count:2;
+  column-count: 2;
+}
+nav {
+  color: #046380;
+  background-color: #EFECCA;
+  padding: 5px 10px;
+  font-size: 14pt;
+  font-weight: bold;
+  box-shadow: 0 10px 5px -5px #002F2F;
+  position: relative;
+}
+nav a {
+  color: #046380;
+  text-decoration: none;
+}
+
+main {
+  color: #002F2F;
+  background-color: #E6E2AF;
+  padding: 10px;
+  z-index: 0;
+}
+main a { color: #002F2F; }
+body{
+  font-family: Calibri, Helvetica, Arial, sans-serif;
+  background-color: #046380;
+}
+
+div {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+}
+footer {
+  color: #002F2F;
+  background-color: #A7A37E;
+  padding: 5px 10px;
+  font-size: 10pt;
+  font-style: italic ;
+  border-radius: 0 0 10px 10px ;
+}
+footer a {
+  color: #002F2F;
+}
+.details {
+  color: #A7A37E;
+  background-color: #002F2F;
+  float: right;
+  padding: 5px 10px;
+}
+#wrapper {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+header, section, footer, aside, nav, main, article, figure {
+display: block;
+}

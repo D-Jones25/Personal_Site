@@ -1,0 +1,66 @@
+@page
+@model self_promo_dawson.Pages.Admin.Experiences.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Experience[0].Company)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Experience[0].JobTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Experience[0].StartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Experience[0].EndDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Experience[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Experience[0].IsProfessional)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Experience) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Company)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsProfessional)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ExperienceId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ExperienceId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ExperienceId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

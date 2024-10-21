@@ -1,0 +1,177 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/css/selfie.css",
+      "PackagePath": "staticwebassets/css/selfie.css"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/css/selfie_mobile.css",
+      "PackagePath": "staticwebassets/css/selfie_mobile.css"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/css/selfie_tablet.css",
+      "PackagePath": "staticwebassets/css/selfie_tablet.css"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/Attachment.JPG",
+      "PackagePath": "staticwebassets/images/Attachment.JPG"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/aug_uni_logo.jpg",
+      "PackagePath": "staticwebassets/images/aug_uni_logo.jpg"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/briarwood_logo.jpg",
+      "PackagePath": "staticwebassets/images/briarwood_logo.jpg"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/download.png",
+      "PackagePath": "staticwebassets/images/download.png"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/gt_logo.jpg",
+      "PackagePath": "staticwebassets/images/gt_logo.jpg"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/photos/Dad.jpg",
+      "PackagePath": "staticwebassets/images/photos/Dad.jpg"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/photos/Freya.JPG",
+      "PackagePath": "staticwebassets/images/photos/Freya.JPG"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/photos/Grad.PNG",
+      "PackagePath": "staticwebassets/images/photos/Grad.PNG"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/photos/Hike.JPEG",
+      "PackagePath": "staticwebassets/images/photos/Hike.JPEG"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/photos/Sala.JPG",
+      "PackagePath": "staticwebassets/images/photos/Sala.JPG"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/photos/Tourney.PNG",
+      "PackagePath": "staticwebassets/images/photos/Tourney.PNG"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/photos/Wedding.jpg",
+      "PackagePath": "staticwebassets/images/photos/Wedding.jpg"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/photos/Zipline.JPG",
+      "PackagePath": "staticwebassets/images/photos/Zipline.JPG"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/photos/dad_thumb.jpg",
+      "PackagePath": "staticwebassets/images/photos/dad_thumb.jpg"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/photos/freya_thumb.jpg",
+      "PackagePath": "staticwebassets/images/photos/freya_thumb.jpg"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/photos/grad_thumb.jpg",
+      "PackagePath": "staticwebassets/images/photos/grad_thumb.jpg"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/photos/hike_thumb.jpg",
+      "PackagePath": "staticwebassets/images/photos/hike_thumb.jpg"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/photos/sala_thumb.jpg",
+      "PackagePath": "staticwebassets/images/photos/sala_thumb.jpg"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/photos/tourney_thumb.jpg",
+      "PackagePath": "staticwebassets/images/photos/tourney_thumb.jpg"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/photos/wedding_thumb.jpg",
+      "PackagePath": "staticwebassets/images/photos/wedding_thumb.jpg"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/photos/zipline_thumb.jpg",
+      "PackagePath": "staticwebassets/images/photos/zipline_thumb.jpg"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/images/portrait.jpg",
+      "PackagePath": "staticwebassets/images/portrait.jpg"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/dawsonjones/Downloads/self-promo-3-D-Jones25-main/self-promo-dawson/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.self-promo-dawson.props",
+      "PackagePath": "build\\self-promo-dawson.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.self-promo-dawson.props",
+      "PackagePath": "buildMultiTargeting\\self-promo-dawson.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.self-promo-dawson.props",
+      "PackagePath": "buildTransitive\\self-promo-dawson.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.self-promo-dawson.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

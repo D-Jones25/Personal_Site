@@ -1,0 +1,59 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <title>Dawson Jones - @ViewData["Title"]</title>
+  
+  <link rel="stylesheet" href="~/css/selfie.css" type="text/css">
+  
+  <link rel="stylesheet" href="~/css/selfie_tablet.css" 
+      media="only screen and (max-width: 1000px) and (min-width: 601px)">
+ 
+  <link rel="stylesheet" href="~/css/selfie_mobile.css" 
+      media="only screen and (max-width: 600px)">
+      
+  <link rel="stylesheet" href="~/css/selfie_mobile.css" 
+      media="only screen and (max-height: 600px)">
+  
+  <script src="~/lib/jquery/dist/jquery.min.js"></script> 
+  @RenderSection("Head", false)
+</head>
+<body>
+  <div id="wrapper">
+  <header> 
+  <h1> Dawson Jones </h1> 
+  <h2> @ViewData["Title"] </h2>
+  </header>
+  
+  <nav>
+  <ul>
+    <li>  <a href="~/Index">Home </a>  </li>
+    <li>  <a href="~/Education">Education </a> </li>
+    <li>  <a href="~/Experience">Experience </a> </li>
+    <li>  <a href="~/Gallery">Photo Gallery </a> </li>
+    
+    @if (SignInManager.IsSignedIn(User)) {
+    <li>  <a href="~/Admin/Index">Admin </a> </li>
+    }
+    <partial name="_LoginPartial" />
+  </ul>   
+  </nav>
+  
+  <main>
+    @RenderBody()
+  </main>
+  
+  <footer>
+    Copyright © 2023, Dawson Jones <br>
+    <b>Email:</b> <a href="mailto:dawsonjones242526@gmail.com">dawsonjones242526@gmail.com </a> <br>
+    <b>Profile:</b> <a href="https://www.facebook.com/dawson.jones.587" target="_blank">Facebook</a>
+    
+  </footer>
+  @RenderSection("Scripts", false)
+</body>
+</html>

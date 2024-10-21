@@ -1,0 +1,137 @@
+﻿@page
+@model ExperienceModel
+@{
+    ViewData["Title"] = "Experience";
+}
+
+<div class="text-center">
+    <main>
+    <h3>Professional Experience</h3>
+    
+    <div>
+    @foreach (var exp in Model.ProfessionalExperiences) 
+    {
+      <div class="experience">
+        <h4>@exp.Company</h4>
+        <div class="dates">@String.Format("{0:MM yyyy}", @exp.StartDate) @String.Format("{0:MM yyyy}", @exp.EndDate)</div>
+        <div class="title">@exp.JobTitle</div>
+        <div class="description">@exp.Description</div>
+      
+      @if (exp.Responsibilities != null)
+      {
+        @foreach (var resp in exp.Responsibilities) {
+          <ul>
+            <li>@resp.Value</li>
+          </ul>
+        }
+      }
+      </div>
+    }
+    </div>
+      <div class="experience">
+      <h4>Queensborough Bank & Trust</h4>
+      <div class="dates">May 2023 - Present</div>
+      <div class="title">Data Scientist / Integration Engineer</div>
+      <div class="description">
+        Collect, clean, and interpret data from various sources
+        in order to develop and improve ML processes. Write C# and 
+        powershell programs to improve existing data 
+        <br> governance processes.
+      </div>
+
+      <ul>
+          <li>Implement ML applications to solve business problems</li>
+          <li>Automate data management and ETL tasks using powershell and C#</li>
+          <li>Create and analyze reports using python and PowerBI</li>
+      </ul>
+    </div>
+
+  </div>
+      
+    <div class="experience">
+      <h4>Augusta University</h4>
+      <div class="dates">August 2022 - January 2024</div>
+      <div class="title">Undergraduate Research Assistant</div>
+      <div class="description">
+        Assist in the research process by collecting experimental data, 
+        preparing presentations, and implementing researched material in 
+        order to solve a research question.
+      </div>
+      <div class="responsibilities ">
+        <ul>
+          <li>Research various neural network structures</li>
+          <li>Discuss and troubleshoot a research topic</li>
+          <li>Present results to overseeing professor</li>
+        </ul>
+      </div>
+    </div>
+      
+    <div class="experience">
+      <h4>ISNation</h4>
+      <div class="dates">January 2024 - May 2024</div>
+      <div class="title">Machine Learning Intern</div>
+      <div class="description">
+        Implemented and tested multiple types of content-recommendation systems using both supervised 
+        and unsupervised machine learning models including deep neural network, k-nearest neighbor, and lightFM 
+        <br> 
+      </div>
+      <div class="responsibilities ">
+        <ul>
+          <li>Build content recommendation system for a new social media platform</li>
+          <li>Develop a sample UI for posting comments and likes utilizing C# and python</li>
+          <li>Collaborate with a team of engineers and business executives</li>
+        </ul>
+      </div>
+    </div>
+    
+    <h3>Activities</h3>
+    <div class="experience">
+    @foreach (var exp in Model.Activities) 
+    {
+        <h4>@exp.Company</h4>
+        <div class="dates">@String.Format("{0:MM yyyy}", @exp.StartDate) @String.Format("{0:MM yyyy}", @exp.EndDate)</div>
+        <div class="title">@exp.JobTitle</div>
+        <div class="description">@exp.Description</div>
+      
+      @if (exp.Responsibilities != null)
+      {
+        @foreach (var resp in exp.Responsibilities) {
+          <ul>
+            <li>@resp.Value</li>
+          </ul>
+        }
+      }
+    }
+    </div>
+
+    <div class="experience">
+      <h4>Cybertronics Club</h4>
+      <div class="dates">August 2023 - Present</div>
+      <div class="title">Member</div>
+      <div class="description">
+        Work on and learn about the intersection of hardware
+        and software in order to build your own machines.
+      </div>
+    </div>
+    
+    <div class="experience">
+      <h4>Terra Guerra Jiu Jitsu</h4>
+      <div class="dates">November 2019 - Present</div>
+      <div class="title">Member</div>
+      <div class="description">
+        Competed in and helped teach Brazilian Jiu Jitsu to 
+        people of all ages and skill levels.
+      </div>
+    </div>
+    
+    <div class="experience">
+      <h4>ACM</h4>
+      <div class="dates">August 2023 - Present</div>
+      <div class="title">Member</div>
+      <div class="description">
+        Practice developing software and various cybersecurity
+        related tasks in order to compete against others.
+      </div>
+    </div>
+  </main>
+</div>

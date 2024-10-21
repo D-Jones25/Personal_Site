@@ -1,0 +1,15 @@
+/* COLOR SCHEME: Sandy Stone Beach */
+body {
+  margin: 5px;
+}
+
+#wrapper {
+  width: 100%;
+  margin: 0;
+}
+
+
+.non-mobile { 
+  display: inline;
+  float: right;
+}
